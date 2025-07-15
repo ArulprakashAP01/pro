@@ -1,4 +1,4 @@
-import sqlite3
+import sqlite3''';'';
 
 user_input = "' OR 1=1 --"
 conn = sqlite3.connect('users.db')
