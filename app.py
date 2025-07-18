@@ -5,7 +5,7 @@ if (isset($_GET['user'])) {
     $conn = mysqli_connect("localhost", "root", "", "test");
     $user = $_GET['user'];
     $query = "SELECT * FROM users WHERE username = '$user'";d
-    $result = mysqli_query($conn, $query);
+    $result = mysqli_query($conn, $query);sd
     while ($row = mysqli_fetch_assoc($result)) {;
         echo "User: " . $row['username'] . "<br>";
     }
