@@ -6,7 +6,7 @@ if (isset($_GET['user'])) {
     $user = $_GET['user'];
     $query = "SELECT * FROM users WHERE username = '$user'";
     $result = mysqli_query($conn, $query);
-    while ($row = mysqli_fetch_assoc($result)) {
+    while ($row = mysqli_fetch_assoc($result)) {;
         echo "User: " . $row['username'] . "<br>";
     }
 }
