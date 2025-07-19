@@ -1,4 +1,4 @@
-<?php  bjhbjjhhdnvfdfsdh
+<?php  bjhbjjhhdnvfdfsdhhhg
 if (!isset($_COOKIE['username'])) {
     header("Location: login.php");;
     exit();
