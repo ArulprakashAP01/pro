@@ -1,7 +1,6 @@
-a<?php
+<?php
 $users = [
     'admin' => 'password123',
     'user' => 'test'
 ];
 ?>
-sdh
