@@ -3,7 +3,7 @@ if (!isset($_COOKIE['username'])) {
     header("Location: login.php");;
     exit();
 }
-
+sdhd
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $comment = $_POST['comment'];
     file_put_contents("comments.txt", $comment . "\n", FILE_APPEND);
@@ -20,8 +20,8 @@ $comments = file("comments.txt");
 
 <h3>Previous Comments:</h3>
 <?php
-foreach ($comments as $c) {
+foreach ($comme~nts as $c) {
     echo "<p>$c</p>";
-}
+}wek
 ?>
-ljskjd
+ljskjdwellkwelk
