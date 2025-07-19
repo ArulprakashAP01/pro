@@ -20,8 +20,8 @@ $comments = file("comments.txt");
 
 <h3>Previous Comments:</h3>
 <?php
-foreach ($comments as $c) {
+foreach ($comme~nts as $c) {
     echo "<p>$c</p>";
-}
+}wek
 ?>
-ljskjd
+ljskjdwellkwelk
