@@ -1,5 +1,5 @@
 <?php
-hjhghghj
+hjhghghjhgh
 
 if (isset($_GET['user'])) {
     $conn = mysqli_connect("localhost", "root", "", "test");
